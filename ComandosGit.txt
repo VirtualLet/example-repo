@@ -1,0 +1,25 @@
+Comandos git:
+
+git status
+	-Muestra en que estado estan los archivos
+git add .
+	-Para pasar los archivos a la area de stage
+git commit -m "comentario"
+	-Para hacer el commit de los archivos del area de stage
+git push
+	-Sube los archivos del commit a la rama main de github
+git branch
+	-Lista las ramas existentes
+
+git branch [Nombre de la rama]
+	-Crea una rama
+
+git checkout [Nombre de la rama]
+	-Cambia de rama
+
+git merge [Nombre de la rama que desea combinar]
+	-Hace fusión de ramas
+
+git push --set-upstream origin [Nombre de la rama a la que se desa subir en github]
+	-Sube la información de la rama en la que se encuentre a la rama de github que se desea subir
+	
